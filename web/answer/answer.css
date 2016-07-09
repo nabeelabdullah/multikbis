@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 24, 2014, 4:13:57 AM
+    Author     : NABEEL
+*/
+li{
+    //list-style: none;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: white;//#e5e4e8;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    border:1px solid white;
+    border-top-color: #9b060b;;
+}
+.mydiv:hover
+{
+    // background-color: red;
+}
+
+#header
+{
+    background-color: #cccc00;
+    //  background-image: url('../img/test30.jpg');
+    background-color: #9b060b;
+   
+    z-index: 5; 
+    width: 100%;
+    height: 40px;
+    position: fixed;
+
+}
+.answerp
+{
+    margin: 0 auto; 
+    padding: 0;
+    color: red;
+    font-size: 15px;
+    margin-left: 600px;
+}
+.answerp:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mydiv
+{
+    //background-color: white; 
+    margin: 0 auto; margin-top:3PX; 
+    height: auto;  
+   // border-bottom:  1px solid gray;//black; 
+    width: 900px;
+}
+.qustion_img
+{
+    width: 100%;
+    height: 100%;
+}
+.second
+{
+    //  background-color: red;
+    width: 40px; 
+    height: 40px;
+    //position: absolute;
+}
+.textp
+{
+    //width: 800px;
+    margin-left: 0px;
+}
+.asked_by:hover
+{
+    cursor: pointer;
+}
+.asked_by
+{
+    text-decoration: none;
+    color: blue;
+}
+#submitp
+{
+    /*    margin: 0 auto;
+        
+        margin-left: 2px;
+        margin-top: 2px;*/
+    text-align: center;
+    font-size: 15px;
+
+}
+#clickme:hover
+{
+    background-color: #c7161c;
+    cursor: pointer;
+}
+#clickme
+{
+    width: 400px; 
+    height: 50px; 
+    color: white; 
+    font-size: 15PX;
+
+    background-color: #9b060b;
+    margin-left: 625px;
+    border: 1px solid black;
+    margin:0 auto;
+    margin-top: 30PX;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+}
+#container
+{
+    height: auto;
+    width: 100%;
+    margin-top: 50px; 
+    border: 1px solid rgba(0,0,0,0);
+    // background-color:white;
+}
+#mydiv
+{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    //resize: none;
+    // margin-left: 15px;
+    border: 1px solid rgba(0,0,0,.2);}
+
+
+#textvalue
+{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    //resize: none;
+    // margin-left: 15px;
+    border: 1px solid rgba(0,0,0,.2);}
+#submitdiv
+{
+    width: 120px;; 
+    height: 20px; 
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#textdiv
+{
+    // background-color: whitesmoke; 
+    margin: 0 auto;  
+    height: auto;
+    border: 1px solid rgba(0,0,0,.1);//black; 
+    // border-top: 0px solid background;
+    width: 960px;
+    margin-top: 30px;
+    //  background-color: black;
+
+
+}
+#temp
+{
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+    position: absolute;
+    //background-color: red;
+    //z-index: 100000000;
+    //background-color: white;
+}
+#forimg
+{
+    width: 100px;
+    height: 100px;
+    //background-color: green;
+    float: right;
+    visibility: hidden;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#inimg
+{
+    width: 100%;
+    height: 70px;
+}
+#forimgfooter
+{
+    width: 100%;
+    height: 30px;
+    // background-color: g;
+}

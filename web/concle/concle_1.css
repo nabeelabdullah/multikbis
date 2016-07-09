@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2014, 12:20:36 PM
+    Author     : nabeel
+*/
+body
+{
+    padding: 0;
+    margin: 0;
+    background-image:url('../img/checked46.jpg'); 
+        
+}
+#subheader
+{
+    width: 962px;
+    border: 1px solid black; height: 38px; background-color:  black;;margin: 0 auto;
+    //border-radius: 10px;
+}
+#gohome
+{
+    width: 100px;
+    height: 38px; 
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    box-shadow: 0 0 3px #bd6063;
+}
+#gohome:hover
+{
+    background-color: #bd6063;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;}
+#header
+{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+
+}
+#container
+{
+    height: 580px;
+    width: 100%;
+    //background-color: red;
+}
+#main
+{
+    height: 100%;
+    font-family: sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 6px black;
+   // border: 1px white solid;
+}
+#photodiv
+{
+    height: 130px;
+    width: 110px;
+    //background-color: yellow;
+/*    margin-left: 40px;
+    margin-top: 30px;*/
+}
+#lable
+{ margin-top: 0;
+    float: left;
+}
+#txt
+{margin-top: 0;
+    float: right;
+}
+li
+{
+    list-style: none;
+}
+.l1
+{margin-left: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    
+    
+}
+.t1
+{
+    margin-top: 20px;
+     font-size: 14px;
+}
+#divimg
+{
+    height: 100%;
+    width: 100%;
+}
+#submitit
+{
+    height: 10px;
+    width: auto;
+   // background-color: gray;
+  //  border: 1px gray solid;
+}
+.concle:hover
+{
+    cursor: pointer;
+   // font-size: 20px;
+}
+.concle
+{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 3px;
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,232 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 4, 2014, 8:16:02 PM
+    Author     : NABEEL
+*/
+#upperspan
+{
+    color:#b2afaf;
+    font-family: 'Hind', sans-serif;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    width: 100%;
+    height: 40px;
+    background-color: black;//#9b060b;
+}
+#uppermain
+{
+    width: 448px;
+    height: 40px;
+    border: 1px solid transparent;
+    //background-color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+#middlemain
+{
+    width: 448px;
+    height: 220px;
+   // background-color: blue;
+    border: 1px solid transparent;
+}
+#lowermain
+{
+    width: 100%;
+    height: 40px;
+    //background-color: #9b060b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   // border: 1px solid #9b060b;
+}
+#fcontainer
+{
+    width: 450px;
+    height: 300px;
+    //background-color: gray;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#namep
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+#fp
+{
+    font-size: 12px;
+    font-family: 'Hind', sans-serif;
+    margin-left: 20px;
+}
+.inputclass
+{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 2px 8px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.3);
+    
+}
+li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#u2
+{
+    margin: 0;
+  padding: 0;
+    float: left;
+}
+#u1
+{ margin: 0;
+  padding: 0;
+  float: left;
+}
+#r2
+{
+      margin-top: 40px;
+}
+.radioli
+{
+    margin-top: 30px;
+   
+}
+#nin:hover
+{
+    cursor: pointer;
+}
+#nin
+{
+   // margin-left: 100px;
+    font-size: 12px;
+   font-family: 'Hind', sans-serif;
+    text-align: right;
+    margin-right: 30px;
+    color:#b2afaf;
+}
+#forsubmit:hover
+{
+    cursor: pointer;
+    //background-color: #9e060b;
+}
+#forsubmit{
+    width: 60px;
+    
+    height: 30px;
+   // background-color: #9b060b;
+    margin-top: 170px;
+    margin-left: 280px;
+    //float: right;
+    color :black;
+    font-family: 'Hind', sans-serif;
+   // border: 1px solid black;
+}
+#footer{
+    height: 130px;
+    margin-top: 150px;
+    border-top: rgba(0,0,0,0) 1px solid;
+    border-bottom: rgba(0,0,0,0) 1px solid;
+    margin-bottom: 0;
+    background:#fff;/* rgba(0,0,0,0.5);*/
+    width: 100%;
+    background: #fff url('../img/footer_Black4.jpg'); 
+}
+a{
+    text-decoration: none;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Mar, 2014, 12:28:00 PM
+    Author     : basheer
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2014, 10:13:33 PM
+    Author     : NABEEL
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2014, 10:04:20 PM
+    Author     : NABEEL
+*/
+
+
+a{
+    color: black;
+}
+#footer_container{
+    width: 970px;
+    margin: 0 auto;
+    height: 98%;
+   font-family: 'Hind', sans-serif;
+    border-top: rgba(0,0,0,0.2) 1px solid;
+}
+#footer_container a{
+    font-size: 13px;
+    text-decoration: none;
+   /* color: #af1b3e;*/
+}
+#footer_container a:hover{
+    font-size: 13px;
+    text-decoration: none;
+    color: #910f2d;
+}
+#upper_footer{
+    height: 90px;
+    width: auto;
+    margin: 5px auto;
+}
+#footer_ul_left{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+#footer_ul_center{
+    display: inline;
+    float: left;
+    margin-left: 40px;
+}
+#footer_ul_right{
+    display: inline;
+    float: left;
+    margin-left: 40px;
+}
+#lower_footer{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    color: #000;
+}

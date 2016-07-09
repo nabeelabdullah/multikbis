@@ -1,0 +1,27 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<link href="../group_info/footercss.css" type="text/css" rel="stylesheet"/>
+<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  <div id="footer_container">
+      
+                <div id ="upper_footer">
+                    <ul id="footer_ul_left">
+                        <li class="footer_li_left"><a href="../what/what.jsp">What kind of application is this?</a></li>
+                        <li class="footer_li_left"><a href="../team_member/TeamMember.jsp">Team members</a></li>
+                        <li class="footer_li_left"><a href="#">Contact us</a></li>
+                    </ul><!--End of footer_ul_left-->
+                    <ul id="footer_ul_center">
+                        <li class="footer_li_center"><a href="#">Privacy Policy</a></li>
+                        <li class="footer_li_center"><a href="../spacial/special.jsp">Special Thanks</a></li>
+                        <li class="footer_li_center"><a href="../feedback/feedback.jsp">Give Feedback</a></li>
+                    </ul><!--End of footer_ul_center-->
+                    <ul id="footer_ul_right">
+                       <li class="footer_li_right"><a href="../Signup">New Registration</a></li>
+                       <li class="footer_li_right"><a href="/">Login to MultiKBIS</a>
+                       <li class="footer_li_right"><a href="../forgetpassword/forgetpassword.jsp">Forget password</a></li>
+                    </ul><!--End of footer_ul_right-->
+                </div><!--End of upper_footer-->
+                <div id="lower_footer">
+                    <p style="margin: 0;padding: 0;text-align: center;font-family: 'Hind', sans-serif;">&copy; 2014-2015 MultiKBIS.com</p>
+                </div>
+            </div>

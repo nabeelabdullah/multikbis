@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2014, 12:20:36 PM
+    Author     : nabeel
+*/
+body
+{
+    padding: 0;
+    margin: 0;
+     background-image: url('../image/inside-background.jpg');
+    font-family: 'Hind',sans-serif;
+     
+}
+
+#subheader
+{
+    width: 962px;
+    border: 1px solid black; height: 38px; background-color:  black;;margin: 0 auto;
+    
+}
+#gohome
+{
+    width: 80px;
+    height: 38px; 
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    box-shadow: 0 0 3px #bd6063;
+}
+#gohome:hover
+{
+    background-color: #bd6063;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    font-size: 13px;
+    font-family: 'Hind',sans-serif;
+}
+th, td {
+    padding: 6px;
+}
+#header
+{
+    height: 40px;
+    width: 100%;
+     background-color: black;
+}
+#submitit
+{
+    height: 10px;
+    width: auto;
+}
+#unfriend:hover
+{
+    cursor: pointer;
+}
+#unfriend
+{
+    margin: 0;
+    padding: 0;
+    color: red;
+    text-decoration: underline;
+}
+#container
+{
+    height:555px;
+    width: 100%;
+ 
+}
+#main
+{
+    height: 100%;
+    height:fit-content;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    padding: 20px 20px;
+    box-shadow: 0 0 5px brown ;
+}
+#photodiv:hover
+{
+    cursor: pointer;
+}
+#photodiv
+{
+    height: 130px;
+    width: 110px;
+}
+#lable
+{
+    float: left;
+    font-family: cursive;
+    margin-left: 30px;
+}
+#txt
+{
+    float: right;
+    margin-right: 30px;
+}
+li
+{
+    list-style: none;
+}
+.l1
+{margin-left: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    
+    
+}
+.t1
+{
+    margin-top: 20px;
+     font-size: 14px;
+     font-family: cursive;
+}
+#divimg
+{
+    height: 100%;
+    width: 100%;
+}
+#submitit
+{
+    height: 20px;
+    width: auto;
+  
+}
+#unfriend:hover
+{
+    cursor: pointer;
+}
+#unfriend
+{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 3px;
+    color: red;
+    text-decoration: underline;
+}
+#changimgdiv
+{
+    width: 300px;
+    height: 126px;
+    background-color: rgba(0,0,0,0.01);
+    visibility: visible;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.mfile
+{  
+    background-color: rgba(0,0,0,0);
+    border: 1px rgba(0,0,0,0) solid;
+}
+#fileu
+{
+    color: rgba(0,0,0,0);
+    
+    height: 30px;
+    width: 100px;
+}
+#sfile:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,432 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2014, 1:44:17 AM
+    Author     : akhtar
+*/
+input:hover,input:focus{
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+     background-color: #DF3D82;
+    
+    background-image: url('../image/inside-background.jpg');
+   background-attachment: fixed;
+    background-repeat: repeat-y;
+   // background-color: #FBFAFA;
+}
+#container123
+{
+    width: 1000px;
+    height: auto;
+    
+  //  background-color: red;
+    margin: 0 auto;
+   
+}
+ol,ul{
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #0000FF;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0025a3;
+}
+
+#main_header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+#user_img{
+    float: left;
+    height: 38px;
+    width: 38px;
+    border-radius: 39px;
+    background-color: white;
+    
+}
+.gohome
+{
+    width: 90px;
+    height: 38px; 
+    margin-top: 10px;
+    background-color: black;
+    float: right;
+  
+    margin-right: 10px;
+   
+}
+.gohome:hover,#goquestion:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 4px white;
+}
+#subheader
+{
+    width: 1050px;
+    border: 1px solid black; 
+    height: 40px; 
+    background-color:  black;
+    margin: 0 auto;
+    
+}
+#inside_s_container{
+    height: 28px;
+    width: 325px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+    border: 1px solid transparent;
+}
+
+#inputsearch{
+   font-size: 12px;
+   float: left;
+   width: 250px;
+   height: 25px;
+   padding: 0 10px;
+ //  font-size: 15px;
+    background-color: transparent;
+    border: 1px solid transparent;
+   border-bottom:  1px solid #86ad8c;
+   background-image: url('../img/search.png');
+   background-size: 20px;
+   background-repeat: no-repeat;
+   background-position: right;
+  // border-left-color: #86ad8c;
+   margin-top: 1px;
+   color: white;
+
+}
+#searchbutton{
+    height:25px;;
+    width:50px; 
+    margin-top: 1px;
+    background-color:#009688;
+    color:#b2afaf;
+    float:right;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid transparent;
+    visibility: hidden;
+}
+#searchbutton:hover{
+    cursor: pointer;
+    background-color:#00796B;
+}
+
+
+#hiddensubmitsearch{
+height: 0;
+width: 0;
+visibility: hidden;
+    
+}
+
+
+#container{
+    height: auto;
+    width: 1000px;
+    float: left;
+    
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.contents{
+    height:auto;
+    width: 100%;
+    float: left;
+    
+    background-color: white;//transparent;
+   // border: 1px solid rgba(0,0,0,0.1);
+    //box-shadow:  0 0 2px rgba(0,0,0,0.3);
+    padding: 15px 15px;
+     box-shadow: 0 0 3px brown;
+    background-color: white;
+    
+}
+.c_header{
+     height: 30px;
+     width: 100%;;
+     margin: 0 auto;
+     float: left;
+    background-color:#F2EEEE;//#D0D0D0 ;
+    border: 1px solid #EEEEEE;
+}
+.ta_header{
+    height: 30px;
+    width: 848px;;
+    table-layout: fixed;
+    overflow: hidden;
+    font-size: 15px;
+    border: 1px solid transparent;
+}
+.ta_coll_1{
+  font-size: 14px;
+  border: 1px solid transparent;  
+  width: 50px;
+  text-align: center;
+}
+.ta_col{
+    font-size: 14px;
+    border: 1px solid transparent;
+    
+}
+
+.c_middle_4{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 847px;
+    float: left;
+    color: #0000FF;
+ //   background-color: #F8F8F8;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    
+}
+.people{
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    float: top;
+    font-size:10px;
+    color: #978270;
+}
+.c_middle{
+    min-height: 168px;
+    height: auto;
+    width: 97%;//px;
+    float: left;
+    //background-color: #FCFCFC;;
+    font-size: 12px;
+    padding: 20px 20px;
+    border: 1px solid transparent;
+}
+.c_middle_1{
+    height: 30px;
+    width: 848px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+.c_middle_1_left{
+    height: 30px;
+    width: 30px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.c_middle_1_right{
+    height: 30px;
+    width: 813px;
+    float: left;
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid transparent; 
+}
+.name_para{
+    text-transform: capitalize;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #0000FF;
+}
+.c_middle_2{
+     min-height:107px;
+    width: 772px;
+    margin-left: 32px;
+     padding: 10px 10px;
+    float: left;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    
+    background-color: #FCFCFC;
+    border: 1px solid transparent; 
+}
+/*.c_middle_2{ 
+    height: 90px;
+    width: 772px;
+    margin-left: 32px;
+    float: left;
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    padding: 20px 20px;
+    //background-color: #FCFCFC;
+    border: 1px solid transparent;
+}*/
+.c_middle_2>p{
+    margin: 0;
+    padding: 0;
+}
+
+.c_middle_3{ 
+    height: 22px;
+    width: 100%;
+  
+    float: left;
+   // background-color:#F0F0F0;// #F8F8F8;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.c_middle_3_tbl{
+    width: 90%;
+  //  background-color: blue;
+   // table-layout: fixed;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+.like:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.c_footer{
+    height: auto;
+    width: 100%;;
+    float: left;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid transparent; 
+}
+.c_footer_1{
+    height: auto;
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+}
+.c_footer_1_left{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    float: left;
+    background-color: white;;
+    border: 1px solid transparent; 
+}
+.c_footer_1_right{
+    height: auto;
+    width: 90%;
+    float: left;
+    font-size: 12px;
+    background-color: white;;
+    border: 1px solid transparent;
+}
+
+.c_footer_2{
+   height: auto;
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent; 
+}
+.c_footer_2_left{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    float: left;
+    background-color: white;;
+    border: 1px solid transparent; 
+}
+.c_footer_2_right{
+   height: auto;
+   width: 90%;;
+    float: left;
+    font-size: 12px;
+    background-color: white;;
+    border: 1px solid transparent; 
+}
+._comment_like{
+    margin: 0;
+    padding: 0;
+    color: #978270;
+    font-size: 10px;  
+    margin-left: 50px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    color: #0000FF; 
+}
+._comment_like:hover{
+    color:#0025a3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.c_footer_3{
+    height: 30px;
+    width: 840px;
+    float: left;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.c_footer_3:hover{
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.c_footer_3_left{
+    height: 30px;
+    width: 30px;
+    float: left;
+    background-color: white;
+    //border: 1px solid transparent;
+}
+.c_footer_3_right{
+    height: 28px;
+    width: 748px;
+    float: left;
+    font-size: 12px;
+    padding:  0 10px;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    background-color: white;;
+    border: 1px solid transparent;
+}
+._img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    background-color: transparent;
+    border: 0px solid transparent;
+    
+}
+.date_para{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    color: #978270;
+    font-size: 13px;
+    font-family: "Prociono";
+  
+}
+.content_para{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.post_para{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  
+}

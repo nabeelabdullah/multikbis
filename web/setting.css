@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Nov, 2015, 11:38:37 AM
+    Author     : zishan
+*/
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+#main
+{
+    width: 700px;
+    height: 300px;
+   // background-color: pink;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+table
+{
+    margin: 0 auto;
+    
+       
+}
+td
+{
+   padding: 20px;
+}
+.text
+{
+    width: 200px;
+
+    height: 20px;
+}
+
+#main_header{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+#user_img{
+    float: left;
+    height: 38px;
+    width: 38px;
+    border-radius: 39px;
+    background-color: white;
+    
+}
+.gohome
+{
+    width: 90px;
+    height: 38px; 
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    
+}
+.gohome:hover,#goquestion:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 4px white;
+}
+#subheader
+{
+    width: 1050px;
+    border: 1px solid black; 
+    height: 38px; 
+    background-color:  black;
+    margin: 0 auto;
+    
+}

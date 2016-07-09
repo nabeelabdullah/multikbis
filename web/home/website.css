@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Mar, 2014, 12:28:00 PM
+    Author     : akhtar
+*/
+
+@font-face{
+    font-family:Audiowide;
+    /*src: url(fonts/Audiowide-Regular.ttf) format("truetype");*/
+}
+title{
+    font-family:cursive;
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color:#353739;
+}
+a:hover{
+    text-decoration: none;
+    color: #910f2d;
+}
+#top{
+    height: 40px;
+    width: 100%;
+    border-top:rgba(0,0,0,0.8) solid 1px;
+    border-bottom:rgba(0,0,0,0.7) solid 2px;
+    background-color:rgba(0,0,0,1);
+}
+#top_container{
+    width: 970px;
+    height: 38px;
+    border-top:rgba(0,0,0,0.8) solid 1px;
+    border-bottom:rgba(0,0,0,0.7) solid 1px;
+    margin: 0 auto;
+    background-color: #000;
+    
+}
+#logo{
+    float: left;
+    width: 140px;
+    height: 15px;
+    margin-top: 7px;
+    background-color: #000;;
+    font-family:cursive;
+    
+    font-size: 14px;
+    font-weight:600;
+}
+#logo>a{
+    text-decoration: none;
+}
+#quick_links{
+    float: right;
+    width: 60px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 8px;
+    font-family:cursive;
+    font-size: 14px;
+    font-weight:600;
+}
+#quick_links>a{
+    text-decoration: none;
+    color:#000;
+}
+#lf{
+    color: #f6c216;
+    vertical-align: middle;
+    font-size: 13px;
+}
+#lm{
+    color: #f65516;
+    font-size: 16px;
+    vertical-align: middle;
+}
+#ll{
+    color: #16c2f6;
+    vertical-align: middle;
+    font-size: 22px;
+}
+#container{
+    width: 700px;
+    height: 520px;
+    
+    border-top:transparent 1px solid;
+    border-bottom:transparent 1px solid; 
+    border-color: transparent;
+    margin: 0 auto;
+}
+#features{
+    margin-left: 120px;
+    height: 400px;
+    width: 550px;
+  
+}
+.features_li{
+    margin-top: 30px;
+    color: rgba(0,0,0,0.6);
+    font: 14px verdana ;
+    list-style:square;
+}
+
+
+.login_li{
+    margin-top: 13px;
+}
+#check_box{
+    float: left;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+#tc{
+    height: 25px;
+    width: 300px;
+    margin-top: 8px;
+}
+#tc_para
+{
+    cursor: pointer;margin: 0;padding: 0;float: left;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+}
+#tc_para:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #910f2d;
+}
+
+#login_header{
+    padding: 13px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #000;
+    height: auto;
+    vertical-align: middle;
+    font:15px verdana;
+    color:#b2afaf;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-top: 30px;
+}
+#login_header_reg{
+    padding: 13px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #000;
+    height: auto;
+    width:428px;
+    vertical-align: middle;
+    font:15px verdana;
+    color:#b2afaf;
+    text-align: center;
+}
+.ifield{
+    height: 40px;
+    width: 286px;
+    border: rgba(0,0,0,0.3) 1px solid;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+    background-color: #fff;
+    padding: 2px 7px;
+}
+.ifieldr{
+    height: 40px;
+    width: 196px;
+    border: rgba(0,0,0,0.3) 1px solid;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    /*font: 15px verdana;*/
+    padding: 2px 7px;
+}
+.ifieldrl{
+    height: 40px;
+    width: 413px;
+    border: rgba(0,0,0,0.3) 1px solid;
+/*    font: 15px verdana;*/
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    padding: 2px 7px;
+}
+.down{
+   font-family: 'Hind', sans-serif;
+    font-size: 12px; 
+}
+
+.sfield{
+    padding: 13px 0;
+    height:auto;
+    width: 300px;
+    background-color: #9b060b;
+    border: #9b060b 1px solid;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
+    vertical-align: middle;
+}
+.sfield:hover{
+    background-color: #c7161c;
+    cursor: pointer;
+}
+.sfieldreg{
+    padding: 13px 0;
+    height:auto;
+    width: 428px;
+    float: left;
+    font-family: 'Hind', sans-serif;
+    background-color: #9b060b;
+    border: #9b060b 1px solid;
+    text-align: center;
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
+    vertical-align: middle;
+    color: white;
+}
+.sfieldreg:hover{
+    background-color: #c7161c;
+    cursor: pointer;
+}
+#footer{
+    height: 130px;
+    border-top: rgba(0,0,0,0) 1px solid;
+    border-bottom: rgba(0,0,0,0) 1px solid;
+    bottom: 0;
+    background:#fff;/* rgba(0,0,0,0.5);*/
+    width: 100%;
+    position: absolute;
+    bottom: 0; 
+}
+#footer_container{
+    width: 970px;
+    margin: 0 auto;
+    border-top: rgba(0,0,0,0.2) 1px solid;
+}
+#footer_container a{
+    font-size: 13px;
+    text-decoration: none;
+   /* color: #af1b3e;*/
+}
+#footer_container a:hover{
+    font-size: 13px;
+    text-decoration: none;
+    color: #910f2d;
+}
+#upper_footer{
+    height: 90px;
+    width: auto;
+    margin: 5px auto;
+}
+#footer_ul_left{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+#footer_ul_center{
+    display: inline;
+    float: left;
+    margin-left: 40px;
+}
+#footer_ul_right{
+    display: inline;
+    float: left;
+    margin-left: 40px;
+}
+#lower_footer{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+.img
+{
+  height: 90%;width: 90%;visibility: hidden;
+}
+.newspan
+{
+    font-size: 10px; 
+    position: absolute;
+}
+.imgdiv
+{
+   
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+    Document   : self_user
+    Created on : 13 Jul, 2014, 2:10:31 AM
+    Author     : akhtar
+
+
+-->
+<html>
+    <head>
+        <link href="feedback.css" type="text/css" rel="stylesheet">
+        <script src="feedback.js" type="text/javascript"></script>
+          
+       <title>MultiKBIS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div id="cont">
+            <div id="header">
+                <img src="../image/n.png" height="70" width="70" id="img1"/>
+                <p>WhyNotUs!</p>
+                <div id="lin">
+                    <div class="d" onclick="click1('ank1');" onmouseover="changeit1('a1l');" onmouseout="changeit2('a1l');">
+
+                        <a href="website.html" id="ank1"></a>
+                        <ul class="ABC">
+                            <li class="a" id="a1l" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME</li>
+                        </ul>
+                    </div>
+                    <div class="d" onclick="click1('ank2');" onmouseover="changeit1('a2l');" onmouseout="changeit2('a2l');">
+                        <a href="gallary.html" id="ank2"></a>
+                        <ul class="ABC">
+                            <li class="a" id="a2l">GALLERY</li>
+                        </ul>
+                    </div>
+                    <div class="d" onclick="click1('ank3');" onmouseover="changeit1('a3l');" onmouseout="changeit2('a3l');">
+                        <a href="home3" id="ank3"></a>
+                        <ul class="ABC">
+                            <li class="a" id="a3l">ABOUT US</li>
+                        </ul>
+                    </div>
+                    <div class="d" onclick="click1('ank4');">
+                        <a href="feedback.html" id="ank4"></a>
+                        <ul class="ABC">
+                            <li class="a" id="a4l">&nbsp;FEEDBACK</li>
+
+                        </ul>
+                    </div>
+                </div><!--lin-->
+            </div><!--header-->
+            <form action="feedservlet" method="post" name="form1">
+                <div id="main">
+                    <ul id="text">
+                        <li class="tli">ENTER YOUR FIRST NAME</li>
+                        <li class="tli">ENTER YOUR LAST NAME</li>
+                        <li class="tli">ENTER YOUR E-MAIL ADDRESS</li>
+
+                        <li class="tli">ENTER YOUR FEEDBACK</li>
+                        <li class="tli" >
+                            <img src="../image/sub.png" height="30" width="100" id="submi" onclick="click1('submi1');"/>
+                            <input type="submit" value="SUBMIT"  id="submi1" /> </li>
+                    </ul><!--text-->
+                    <ul id="field">
+                        <li class="fli">
+
+                            <input type="text" class="in" id="i1" name="fname"  onblur="notempty('i1', 's1');" oninput="closeit('s1');"/>
+                             <span id="s1" class="ap"></span>                        
+
+                        </li>
+
+                        <li class="fli">
+                            <input type="text" class="in" id="i2" name="lname" onblur="notempty('i2', 's2');"  oninput="closeit('s2');"/>
+                            <span id="s2" class="ap"></span>
+                        </li>
+                        <li class="fli">
+                            <input type="text" class="in" id="i3" name="email"  onblur="checkEmail('i3', 's3')"  oninput="closeit('s3');"/>
+                            <span id="s3" class="ap"></span>
+                        </li>
+
+                        <li id="fli">
+                            <textarea id="in" name="feed" onblur="notempty('in', 's4');"  oninput="closeit('s4');"></textarea>
+                            <span id="s4" class="ap"></span>
+                        </li>
+                    </ul><!--field-->
+
+                </div><!--main-->
+            </form>
+            <div id="temp"></div>
+        </div><!--con-->
+
+    </body>
+</html>

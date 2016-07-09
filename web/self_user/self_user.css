@@ -1,0 +1,963 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Jun, 2014, 12:40:15 PM
+    Author     : akhtar
+*/
+div:hover,div:focus{
+    outline: none;
+}
+#main_header{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+#user_img{
+    float: left;
+    height: 38px;
+    width: 38px;
+    border-radius: 39px;
+    background-color: white;
+    
+}
+.gohome
+{
+    width: 90px;
+    height: 38px; 
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    
+}
+.gohome:hover,#goquestion:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 4px white;
+}
+#subheader
+{
+    width: 1000px;
+    border: 1px solid black; 
+    height: 38px; 
+    background-color:  black;
+    margin: 0 auto;
+    
+}
+#inside_s_container{
+    height: 28px;
+    width: 325px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px solid transparent;
+}
+
+#inputsearch{
+   font-size: 15px;
+   float: left;
+   width: 250px;
+   height: 25px;
+   padding: 0 10px;
+   font-family: serif;
+   font-size: 15px;
+   border: 1px solid #86ad8c;
+   margin-top: 1px;
+
+}
+#searchbutton{
+    height:25px;;
+    width:50px; 
+    margin-top: 1px;
+    background-color:#009688;
+    color:#b2afaf;
+    float:right;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid transparent;
+}
+#searchbutton:hover{
+    cursor: pointer;
+    background-color:#00796B;
+}
+
+input:focus,textArea:focus{
+    outline: 0;
+}
+body{
+    overflow:scroll;
+    margin: 0;
+    padding: 0;
+   background-color: #FBFAFA;
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+a{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    color: white;
+    list-style: none;
+
+}
+
+#user_info_div{
+    height:70px;
+    width: 150px;
+    background-color: wheat;
+    position: absolute;
+    margin-left: 1005px;
+    margin-top: 116px;
+    
+}
+
+#user_info_ul{
+    margin-top: 0;
+}
+user_info_li{
+    margin-top: 0;
+}
+
+#maximize_self_user{
+    height:0;
+    width:0;
+    z-index: 500;
+    position: absolute;
+    visibility: hidden;
+    border: 1px solid black;
+    background: rgba(0,0,0,0.5);    
+}
+#image_uploader1{  
+    margin-left: 650px;
+    margin-top: 300px;
+    visibility: hidden;
+    position: absolute;
+}
+#maximize_inside_self_user{
+     height: 0;
+     width:0;
+     background-color:white;
+     margin: 0 auto;
+     border-radius: 4px;
+     margin-top: 30px;
+     border:10px solid rgba(0,0,0,0.3);
+      
+}
+#maximize_header_self_user{
+    height: 25px;
+    width: 600px;
+    float: left;
+    border:1px solid transparent;
+}    
+
+
+._tep_new:hover{
+    background-color:#F00000;
+    cursor: pointer;
+}
+
+#exit1_close{
+    height: 24px;
+    width: 23px;
+    border-top-left-radius: 4px;
+    background-color: yellow;
+    visibility: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+#exit1_close:hover{
+/*    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.4);
+    background-color: #cccccc;*/
+}
+#bbc{
+    visibility: hidden;
+}
+#bbc:hover{
+    cursor: pointer;
+    border-color:  rgba(0,0,0,0.4);
+    background-color: #cccccc;
+}
+#bottom_maximize_self_user>p{
+    margin: 0;padding: 0;
+}
+#bottom_maximize_self_user
+{
+    font-size: 13px;
+    font-family:  sans-serif;
+    height:0;  
+    width:0;
+    padding:10px 13px;
+    overflow-y: scroll;
+    border: 1px solid rgba(0,0,0,0.2);
+    float: left;
+    visibility: hidden;
+}
+#bottom_maximize_self_user::-webkit-scrollbar {
+    width: 12px;
+}
+
+#bottom_maximize_self_user::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+}
+
+#bottom_maximize_self_user::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#bottom_maximize_self_user_below_container{
+    height: 0;
+    width: 0px;
+    float: left;
+    border: 2px solid transparent;
+    background-color:white;
+    visibility: hidden;
+}
+.attached{
+    height: 45px;
+    width: 100px;
+    float: left;
+    margin-left: 230px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#F5F5F5;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius:  2px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.fold_img_1{
+  height: 14px;
+  width: 13px; 
+  background-color: #F5F5F5; 
+  float: left; 
+  margin: 0;
+  padding: 0;  
+}
+.attached:hover{
+    cursor: pointer;
+}
+.attached_1{
+    height: 15px;
+    width: 30px;
+    float: right;
+    margin-top: 1px;
+    border: 0px solid transparent;  
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/*start edit*/
+#maximize_self_user_edit{
+    height:0;
+    width:0;
+    position: absolute;
+    background: rgba(0,0,0,0.5); 
+      
+}
+#maximize_inside_self_user_edit{
+     height: 0;
+     width:0;
+     background-color:white;
+     margin: 0 auto;
+     border-radius: 4px;
+     margin-top: 30px;
+     visibility: hidden;
+     border:10px solid rgba(0,0,0,0.2);
+      
+}
+#maximize_header_self_user_edit{
+    height: 26px;
+    width: 100%;
+    float: left;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}    
+
+#close_EXIT_self_user_edit{
+    height: 25px;
+    width: 23px;
+    background-color: white;
+    visibility: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+#close_EXIT_self_user_edit:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+#bottom_maximize_self_user_edit{
+    font-size: 15px;
+    font-family:  sans-serif;
+    height:0;  
+    width:0;
+    margin-left: 24px;
+    float: left;
+    visibility: hidden;
+   
+}
+#self_user_textarea>p{
+    margin: 0;padding: 0;
+}
+#self_user_textarea::-webkit-scrollbar {
+    width: 12px;
+}
+
+#self_user_textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+}
+
+#self_user_textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+#self_user_textarea{
+    height:0;
+    width: 0;
+    resize: none;
+    visibility: hidden;
+    font-size: 15px;
+    font-family:  sans-serif;
+    overflow-y: scroll;
+    border: 1px solid rgba(0,0,0,0.2);
+    float: left;
+    visibility: hidden;
+}
+#self_user_textarea:hover{
+    border: 1px solid rgba(0,0,0,0.4);
+}
+#self_user_post_submit_div{
+    border: 1px solid rgba(0,0,0,0.2);
+    height: 0;
+    width: 0;
+    float: left;
+    margin-top: 33px;
+    color: #b2afaf;
+    background-color: #9b060b;
+    margin-left: 23px;
+    border-bottom-left-radius: 5px;
+     border-bottom-right-radius:5px;
+    visibility:hidden;
+}
+
+#self_user_post_submit_div:hover{
+    color: white;
+    background-color: #c7161c;
+    cursor: pointer;
+}
+
+#sub_table{
+    height:41px;
+    width: 560px;
+    table-layout: fixed;
+    overflow: hidden;
+}
+
+#ta_td_1{
+   height: 30px;
+   width: 100px; 
+   float: left;
+   font-family: sans-serif;
+   border: 1px solid rgba(0,0,0,0.1)  
+}
+#ta_td_2{
+    height: 30px;
+    width: 458px; 
+    float: left;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#ta_td_3{
+     color: #6c6060;
+     background-color: #ececec;
+     width: 100px;
+     border: 0px solid black;
+     text-align: center;
+      border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+#ta_td_3:hover{
+    color: white;
+    background-color:#a09a9a;
+    cursor: pointer;
+}
+
+#fileToUpload{
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+#fileName{
+    height: 23px;
+    width: 170px;
+    background: whitesmoke;
+    float: left;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 2px;
+    border: 1px solid transparent;
+}
+#progressNumber{
+    height: 18px;
+    width: 40px;
+    margin-top: 4px;
+    font-weight: bold;
+    background:whitesmoke;
+    float: left;
+   border: 1px solid transparent;
+}
+#complitness{
+    height: 23px;
+    width: 90px;
+    margin-top: 2px;
+    margin-left: 10px;
+    alignment-adjust: central;
+    font-weight: bold;
+    font-size: 15px;
+    background:whitesmoke;
+    float: left;
+    border: 1px solid transparent;
+    
+}
+#inside_complitness{
+    height: 16px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 1px;
+    alignment-adjust: central;
+    font-weight: bold;
+    font-size: 15px;
+    background:whitesmoke;
+    float: left;
+    border: 1px solid transparent;
+}
+
+#progress_bar{
+    margin-top: 3px;
+    margin-left:30px;
+    height: 20px;
+    width: 150px;
+    background:whitesmoke;
+    float:left;
+    border: 1px solid whitesmoke;
+}
+
+#progress_bar_inner{
+    margin-top: 2px;
+    height: 15px;
+    width:0;
+    background:#00cccc;
+    border: 1px solid #cccccc;
+    
+}
+#progress_bar_close{
+ margin-top: 3px;
+ margin-right: 5px;
+    height: 20px;
+    width: 15px;
+    background: whitesmoke;
+    float: right;
+    border: 1px solid whitesmoke;
+}
+#progress_bar_close:hover{
+/*    background-color: #fcf2f2;*/
+    border: 1px solid wheat;
+}
+/*end of file uploading-------------*/
+#self_user_edit_post_submit_button1{
+    height: 26px;
+    width: 60px;
+    background-color:rgba(0,0,0,0.2);
+    border: 1px solid transparent;  
+    float: right;
+    margin-top: 4px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 10;
+    visibility: hidden;
+}
+#self_user_edit_post_submit_button1:hover{
+    z-index: 1;
+}
+#self_user_edit_post_submit_button{
+    height: 0;
+    width: 0;
+    background-color:#34ac44;
+    border: 1px solid black;  
+    float: right;
+    z-index: 5;
+    margin-top: 4px;
+    margin-right: 7px;
+    visibility: hidden;
+}
+#self_user_edit_post_submit_button:hover{
+   background-color:#246918;
+    cursor: pointer;
+    
+    border: 1px solid black;
+}
+
+#self_user_submit_edit{
+    height: 20px;
+    width: 60px;
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#self_user_edit_post_attach_button{
+    height: 0;
+    width: 0;
+    background-color: white;
+    border: 1px solid transparent;  
+    float: left;
+    margin-left: 130px;
+    margin-top: 3px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+/*start main boady*/
+
+
+/*start new post_div--------------------------------------------------------->*/
+#new_post_container{
+    height:25px;
+    width: 90px;
+    float: left;
+    margin-left: 145px;
+    margin-top: 3px;
+    background-color:#cccc00;
+    border: 1px solid rgba(0,0,0,0.1);     
+}
+#new_post_container:hover{
+    cursor: pointer;
+     background-color: #666600;
+    border-color: black;
+    
+}
+
+
+
+
+
+/*end new post_div--------------------------------------------------------->*/
+
+
+/*start matter dv*/
+
+
+#content{
+    background-color: transparent;
+    height: auto;
+    width: 770px;
+    float: left;
+    margin-top: 40px;
+   // background-color: yellow;
+    
+}
+.matter_container{
+    height:165px;
+    width: 768px;//100%;
+    //background-color: blueviolet;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.1);
+}
+.image{
+    height: 118px;
+    width: 15%;
+    background-color: aqua;
+    float: left;
+    margin-top: 1%;
+    margin-left: 15px;
+    border: 1px solid wheat;
+}
+.text_matter{
+    height: 118px;
+    width: 80%;
+    float: left;
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.text_matter>p{
+    margin: 0;
+    padding: 0;
+}
+.matter_containerbottom{
+    height: 30px;
+    width: 99.5%;
+    //margin-left: 15px;
+    margin-top: 4px;
+    background-color:white;
+    border: 1px solid transparent;
+    float: left;
+  
+}
+.visitor_name{
+    height: 20px;
+    width: 115px;                  
+    background-color:white;
+    margin-top: 5px;
+    font-size: 13px;
+    border: 1px solid rgba(0,0,0,0.1);
+    float: left;
+    margin-left: 15px;
+   
+}
+.maximize_image{
+    float: right;
+    margin-right:0px;
+}
+.maximize_image:hover{
+    cursor: pointer;
+    background-color: #3ea957;
+    
+}
+
+.like_count
+{
+    height: 20px;
+    width: 65px;
+    float: right;
+    background-color: white;//yellow;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+   
+    
+}
+
+.text_letter1{           
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.text_letter1:hover{
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.2);
+   // background-color: #3ea957;
+    
+}
+#text_letter2{
+    height: 20px;
+    width: 65px;
+    float: right;
+    background-color: white;//yellow;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#text_letter2:hover{
+    cursor: pointer;
+    color: red;
+}
+#text_letter3{
+    height: 20px;
+    width: 35px;
+    float: right;
+    margin-right: 2px;
+    margin-top: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+      
+}
+
+#text_letter4{
+    height: 20px;
+    width: 65px;
+    float: left;
+    margin-left:5px;
+    margin-top: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+      
+}
+#self_user_topic{
+    height: 20px;
+    width: 310px;
+    float: right;
+    margin-right: 20px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    border: 1px solid rgba(0,0,0,0.1);  
+}
+
+/*start settin0----------------------------------------------------------------------------*/
+
+
+.setting_container{
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 2;
+    background-color: wheat;
+    border: 1px solid black;
+    float: right;
+    margin-left: 550px;
+    margin-top: 100px;
+    visibility: hidden;
+}
+#setting{
+    height: 88px;
+    width: 75px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    float: left;
+}
+._setting{
+   height: 20px;
+   width: 75px;
+   background-color:white;
+   border: 1px solid #cccccc;
+   border-radius: 3px;
+       
+}
+._setting:hover{
+    cursor:pointer;
+    background-color: whitesmoke;
+}
+#setting_image_container{
+    height: 30px;
+    width: 20px;
+    background-color: red;
+    border: 1px solid black;
+    float: right;
+    margin-top: 30px;
+}
+/*end of setting div---------------------------------------------------------------------------*/
+
+/*start new post div--------------------------------------------------------------------------------*/
+#body_new_post_div{
+    height:100%;
+    width:100%;
+    position: absolute;
+    background: rgba(0,0,0,0.7); 
+    visibility: hidden;
+}
+
+#matter_container_new_post{
+     height: 583px;
+     width:600px;
+     background-color:white;
+     margin-left: 355px;
+     margin-top: 40px;
+     visibility: hidden;
+     border: 1px solid #cccccc;
+      
+}
+#header_container{
+    height: 30px;
+    width: 600px;
+    float: left;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    visibility: hidden;
+   
+}
+#header_container_inside{
+    height: 20px;
+    width: 20px;
+    border: 1px solid transparent;
+    float: left;
+    visibility: hidden;
+}
+#{
+  border: 1px solid transparent;   
+}
+#closeicon:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+#matter_container_new_post_inside{
+    height: 115px;
+    width:600px ;
+    background-color:  white;
+    border: 1px solid rgba(0,0,0,0.1);
+    float: left;
+    visibility: hidden;
+}
+#image_new_post{
+    height: 100px;
+    width: 90px;
+    background-color: aqua;
+    float: left;
+    margin-top: 1%;
+    margin-left: 15px;
+    border: 1px solid wheat;
+}
+#text_matter_new_post{
+    height: 100px;
+    width: 450px;
+    float: left;
+    background-color:white;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-left: 10px;
+    margin-top: 1%;
+    font-size: 17px;
+    visibility: hidden;
+   
+}
+
+#visitor_container_new_post{
+    height: 30px;
+    width: 410px;
+    margin-left: 15px;
+    margin-top: 4px;
+    background-color:white;
+    border: 1px solid wheat;
+    float: bottom;
+  
+}
+#visitor_container_new_post_inside{
+    height: 20px;
+    width: 54px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    alignment-adjust: central;
+    background-color: white;
+    border: 1px solid transparent;
+    float: left;
+    margin-left: 5px; 
+}
+#visitor_name_new_post{
+    height: 25px;
+    width:330px;
+    background-color: white;
+    margin-top: 2px;
+    border: 1px solid transparent;
+    float: left;
+    margin-left:   12px;
+}
+#topic_container_new_post{
+    height: 30px;
+    width: 410px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color:white;
+    border: 1px solid wheat;
+    float: bottom;
+     
+}
+
+#text_letter4_new_post{
+    height: 20px;
+    width: 58px;
+    float:left;
+    margin-top: 5px;
+    border: 1px solid transparent;
+      
+}
+#self_user_topic_new_post{
+    height: 23px;
+    width: 330px;
+    float: left;
+     font-size: 17px;
+    margin-top: 2px;
+    background-color:white;
+    margin-left: 4px;
+    border: 1px solid transparent;
+    resize: none;
+}
+
+#matter_container_new_post_bottom_textarea{
+    height: 330px;
+    width: 540px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+    border: 1px solid rgba(0,0,0,0.1);
+    resize: none;
+    visibility: hidden;
+    background-color: whitesmoke;
+    
+}
+#matter_container_new_post_bottom_textarea:hover{
+    border: 1px solid rgba(0,0,0,0.3);
+    
+}
+#button_container_bottom_new_post{
+    height: 70px;
+    width: 540px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-left: 32px;
+    float: bottom;
+    margin-top: 10px;   
+    visibility: hidden;
+}
+#button_container_bottom_new_post:hover{
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+
+#attach_button_new_post_attach{
+    
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.1);
+    float: left;
+    margin-left: 400px;
+    margin-top: 12px;
+    
+}
+#attach_button_new_post_attach:hover{
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+#attach_button_new_post_submit{
+    height: 25px;
+    width: 60px;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color:#34ac44;
+    margin-top: 10px;
+    color: white;
+   
+    border-radius:  2px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+#attach_button_new_post_submit:hover{
+    background-color:#246918;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+
+

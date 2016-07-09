@@ -1,0 +1,343 @@
+/* 
+    Document   : full_book
+    Created on : Feb 1, 2015, 9:39:50 AM
+    Author     : akhtar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+
+table,tr,td{
+    margin: 0;
+    padding: 0;
+    
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#main_header{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+}
+#user_img{
+    float: left;
+    height: 38px;
+    width: 38px;
+    border-radius: 39px;
+    background-color: white;
+    
+}
+.gohome
+{
+    width: 90px;
+    height: 38px; 
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+   
+}
+.gohome:hover,#goquestion:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 4px white;
+}
+#subheader
+{
+    width: 1050px;
+    border: 1px solid black; 
+    height: 38px; 
+    background-color:  black;
+    margin: 0 auto;
+    
+}
+#main_cotainer{
+    height: 2px;;
+    margin:0 auto;
+    width:872px;
+    background-color:transparent;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+#container{
+    height: auto;
+    width: 872px;
+    margin-top: 38px;
+    padding: 3px;
+    float: left;
+    position: absolute;
+   background-color: #FBFAFA;
+    border: 1px solid transparent;
+}
+#content_header{
+    height: 30px;
+    width: 872px;
+  //  background-color:#F8F8F8 ;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+#tbl_hdr{
+    float: left;
+    border: none;
+    //border-radius: 6px;
+    
+}
+#mdle{
+    height: 25px;
+    width: 780px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.nxt_bck{
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#til{
+    min-height: 100px;
+    margin-top: 5px;
+    width: 868px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#til_top{
+    min-height: 40px;
+    padding: 0 10px;
+    width: 850px;
+    float: left;
+  //  background-color:#E8E8E8 ;
+    border: 1px solid transparent;
+}
+#title{
+    padding-bottom: 5px;
+    min-height: 40px;
+    color: #1A0DB2;
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 660px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.rup{
+    height: 30px;
+    width: auto;
+    float: right;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.rupee{
+    height: 30px;
+    width:auto;
+    float: right;
+    margin-right: 20px;
+    background-color: transparent;
+    font-weight: bolder;
+    font-family: 'Hind', sans-serif;
+}
+
+#til_btm{
+    height: 50px;
+    padding: 0 10px;
+    width: 850px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+#ur_nm{
+    height: 40px;
+    width: 800px;
+    float: left;
+    font-family: 'Hind', sans-serif;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+#ur_img{
+    margin-top: 3px;
+    float: right;
+    height: 38px;
+    width: 38px;
+    border-radius: 39px;
+    background-color: white;
+}
+#bk_img{
+    height:420px;
+    width: 868px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+#photo_lft{
+    height:400px;
+    margin-top: 10px;
+    width: 424px;
+    margin-left: 5px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#photo_lft_1{
+    height:398px;
+    width: 55px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#photo_lft_2{
+    height:398px;
+    width: 355px;
+    float: left;
+    background-color:transparent;
+    border: 1px solid transparent;
+}
+#photo_rgt{
+    height:400px;
+    margin-top: 10px;
+    width: 423px;
+    margin-left: 5px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#photo_rgt_1{
+    height:398px;
+    width: 55px;
+    float: right;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#photo_rgt_2{
+    height:398px;
+    width: 355px;
+    float: right;
+    background-color:transparent;
+    border: 1px solid transparent;
+}
+.im{
+    height:60px;
+    width: 55px;
+    margin-top: 150px;
+    border-radius: 4px;
+    //background-color: #E8E8E8;
+    border: 1px solid transparent;
+}
+.im:hover{
+    background-color:#D8D8D8 ;
+    cursor: pointer;
+}
+#all_img{
+    height:60px;
+    width: 868px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.img_1{
+    height:40px;
+    width: 60px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid transparent; 
+}
+
+#dismiss{
+    height:50px;
+    width: 848px;
+    float: left;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+     border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+#cnt{
+    height:auto;
+    width: 848px;
+    float: left;
+    padding: 5px 10px;
+    background-color:transparent;
+    border: 1px solid transparent;
+}
+#n_e{
+    height:auto;
+    width: 620px;
+    margin: 0 auto;
+    background-color:transparent;
+   // border: 1px solid rgba(0,0,0,0.3);;
+}
+#con_lft{
+    height:40px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#con_rgt{
+    height:40px;
+    width: 508px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#m_lft{
+     height:40px;
+    width: 100px;
+    
+    float: left;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#m_rgt{
+    height:40px;
+    width: 508px;
+  
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#a_lft{
+    height:40px;
+    width: 150px;
+    
+    float: left;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#a_rgt{
+    height:auto;
+    width: 460px;
+
+    float: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+}

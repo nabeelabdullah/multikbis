@@ -1,0 +1,345 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the tempulate in the editor.
+*/
+/* 
+    Created on : 15 Feb, 2014, 12:07:21 AM
+    Author     : akhtar
+*/
+/*input,option,select:focus{
+    outline: none;
+}*/
+#main_header{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+#user_img{
+    float: left;
+    height: 38px;
+    width: 38px;
+    border-radius: 39px;
+    background-color: white;
+    
+}
+.gohome
+{
+    width: 90px;
+    height: 38px; 
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    box-shadow: 0 0 3px #bd6063;
+}
+.gohome:hover,#goquestion:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 4px white;
+}
+#subheader
+{
+    width: 900px;
+    border: 1px solid black; 
+    height: 38px; 
+    background-color:  black;
+    margin: 0 auto;
+    
+}
+
+
+#p_light{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    visibility: hidden;
+    
+}
+#l_container{
+    height: 80px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 250px;
+    background-color: white;
+    border: 10px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    visibility: hidden;
+}
+#l_header{
+    height: 77px;
+    width: 25px;
+    border: 1px solid transparent;
+    background-color: white;
+    float:left;
+    visibility: hidden;
+    
+}
+#close{
+    height: 25px;
+    width: 25px;
+    float: right;
+    border: 1px solid transparent;
+}
+#close:hover{
+    
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+#l_footer{
+    height: 77px;
+    width: 171px;
+    float: left;
+    border: 1px solid black;
+    background-color: white;
+    visibility: hidden;
+}
+#f_central{
+    height: 40px;
+    width: 171px;
+/*    alignment-adjust: central;*/
+    margin-top: 17px;
+    background-color: white;
+    border: 1px solid transparent;
+     visibility: hidden;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FBFAFA;
+    //background-repeat: repeat-x;
+    font-family: 'Hind', sans-serif;
+    background-image: url('../image/inside-background.jpg');
+    
+}
+input:hover,input:focus{
+    outline: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#main_body{
+    
+    margin: 0;
+    padding: 0;
+    height:600px;
+    width: 100%;
+    //border: 1px solid transparent;
+}
+
+#post_condition_container{
+    height:auto;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    
+}
+#post_condition_container_top{
+    margin-top: 50px;
+    height: 50px;
+    width: 775px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+.post_para{
+    color: #b2afaf;
+    //font-family: sans-serif;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#nt_container{
+     height: auto;
+     margin-left: 10px;
+    width: 775px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+#stopic{
+     height: 38px;
+     width: 773px;
+     float: left;
+     margin-top: 5px;
+/*     //background-color: #9b060b;*/
+     border: 1px solid rgba(0,0,0,0.2);
+}
+#stopic:hover{
+    /*//border: 1px solid rgba(0,0,0,0.2);*/
+    box-shadow: 1px 1px 1px  rgba(0,0,0,0.3) ;
+    
+}
+
+#to_text{
+    height: 30px;
+    width: 580px;
+    //font-weight: bold;
+    font-family: 'Hind', sans-serif;
+    padding: 2px 8px;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 0px solid transparent;
+    
+}
+/*#to_text:first-letter {
+    text-transform: capitalize;
+}*/
+#pattach{
+     //height: 48px;
+     min-height: 1px;
+     width: 773px;
+     float: left;
+     margin-top: 5px;
+    // background-color: #9b060b;
+     //border: 1px solid rgba(0,0,0,0.05);
+     border: 1px solid transparent;
+     
+}
+.pattach_left{
+     height: 20px;
+     width: 590px;
+     margin: 1px auto;
+     z-index: 100;
+/*     //background-color:rgba(0,0,0,0.05);*/
+     border: 1px solid rgba(0,0,0,0.01);
+}
+#pattach_right{
+     height: 36px;
+     width: 170px;
+     float: left;
+     color: #6c6060;
+     background-color: #ececec;
+     border: 1px solid transparent;
+}
+
+/*#pattach_right:hover{
+    color: white;
+    background-color:#a09a9a;
+    cursor: pointer;
+}*/
+.att_para{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 15px;
+}
+#spost{
+     height: 50px;
+     width: 775px;
+     float: left;
+     margin-top: 5px;
+     background-color: #9b060b;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     border: 1px solid transparent;
+     
+   
+}
+/*#spost:hover{
+    background-color: #c7161c;
+    cursor: pointer;
+}*/
+#fileToUpload_2{
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.fname{
+    height: 20px;
+    width:190px;
+/*    background: white;*/
+font-size: 12px;
+    float: left;
+    z-index: 10;
+    border: 1px solid transparent;
+    
+}
+.pnumber{
+    height: 20px;
+    width: 40px;;
+/*    background:white;*/
+font-size: 12px;
+    z-index: 10;
+    float: left;
+    border: 1px solid transparent;
+    
+}
+#complitness_2{
+    height: 20px;
+    width: 90px;
+    font-size: 12px;
+   /*    background:white;*/
+    z-index: 10;
+    float: left;
+    border: 1px solid transparent;
+   
+}
+#progress_bar_2{
+    margin-top: 0;
+    height: 20px;
+    width:241px;
+   /*    background:white;*/
+    z-index: 10;
+    float:left;
+    border: 1px solid transparent;
+    
+  
+}
+.pb2{
+  /*    background:white;*/
+    z-index: 10;  
+}
+.pbarinner{
+    
+    height: 18px;
+    font-size: 12px;
+    width:0;
+   /*    background:white;*/
+    z-index: 10;
+    
+}
+.pbarclose
+{
+    height: 20px;
+    width:20px;
+    float: left;
+    margin-top: 1px;
+   /*    background:white;*/
+    z-index: 10;
+}
+.pbarclose:hover{
+    cursor: pointer;
+}

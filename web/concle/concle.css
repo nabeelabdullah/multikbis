@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2014, 12:20:36 PM
+    Author     : nabeel
+*/
+body
+{
+    padding: 0;
+    margin: 0;
+        
+}
+table, th, td {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;}
+#header
+{
+    height: 50px;
+    width: 100%;
+    background-color: #262c2c;//gray;
+
+}
+#container
+{
+    height: 580px;
+    width: 100%;
+    //background-color: red;
+}
+#main
+{
+    height: 96%;
+    width: 800px;
+    margin: 0 auto;
+    //background-color: green;
+    border: 1px white solid;
+}
+#photodiv
+{
+    height: 130px;
+    width: 110px;
+    //background-color: yellow;
+/*    margin-left: 40px;
+    margin-top: 30px;*/
+}
+#lable
+{ margin-top: 0;
+    float: left;
+}
+#txt
+{margin-top: 0;
+    float: right;
+}
+li
+{
+    list-style: none;
+}
+.l1
+{margin-left: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    
+    
+}
+.t1
+{
+    margin-top: 20px;
+     font-size: 14px;
+}
+#divimg
+{
+    height: 100%;
+    width: 100%;
+}
+#submitit
+{
+    height: 10px;
+    width: auto;
+   // background-color: gray;
+  //  border: 1px gray solid;
+}
+.concle:hover
+{
+    cursor: pointer;
+   // font-size: 20px;
+}
+.concle
+{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 3px;
+    color: red;
+    text-decoration: underline;
+}

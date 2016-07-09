@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the tempulate in the editor.
+*/
+/* 
+    Created on : 15 Feb, 2014, 12:07:21 AM
+    Author     : akhtar
+*/
+input,option,select:focus{
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-color: #FBFAFA;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+    //color: black;
+    list-style: none;
+
+}
+
+
+#main_header{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+#subheader
+{
+    width: 1050px;
+    border: 1px solid black; 
+    height: 38px; 
+    background-color:  black;
+    margin: 0 auto;
+    
+}
+
+
+#term_condition_container{
+    height:auto;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+    //border: 1px solid rgba(0,0,0,0.1);
+    
+    
+}
+
+
+
+#ppBody
+{
+    font-size:11pt;
+    width:100%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+#ppHeader
+{
+    font-family:verdana;
+    font-size:21pt;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    color: #cccccc;
+}
+
+.ppConsistencies
+{
+    display:none;
+}
